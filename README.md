@@ -1,4 +1,4 @@
-# Kubernetes Project
+# Kubernetes CI/CD and GitOps with Jenkins, Helm, and Argo CD
 
 ## Overview
 This project demonstrates deploying a Python application and a static Nginx-based website in a Kubernetes cluster using Minikube. The project covers Kubernetes deployments, services, ingress resources, resource restrictions, and autoscaling with Horizontal Pod Autoscaler (HPA). Additionally, it includes integrating Helm charts, managing sensitive data using Kubernetes Secrets, and setting up a CI/CD pipeline using Jenkins and Argo CD.
@@ -27,7 +27,7 @@ pylint
 
 ## Project Structure
 ```bash
-K8S-Project/
+kubernetes-cicd-jenkins-argocd/
 ├── .github/
 │   └── workflows/                # Contains CI workflows
 ├── .img/                         # Contains images used for documentation or visuals
@@ -253,4 +253,15 @@ Additionally, the application’s sensitive data, such as the Telegram bot token
 
 Argo CD was also integrated to implement GitOps for automatic application deployment from the Git repository.
 
-**Feel free to adapt or expand upon these changes if necessary! Let me know if you'd like any further modifications.**
+---
+
+## Author
+
+Ofri Liberman
+
+- GitHub: https://github.com/libermanofri
+- LinkedIn: https://linkedin.com/in/ofriliberman
+
+## License
+
+This project is intended for educational and portfolio purposes.
